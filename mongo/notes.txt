@@ -1,0 +1,32 @@
+Mongo Commands
+==============
+	start & stop
+		-> service mongod start
+		-> service mongod stop
+	host mongobd using shell
+		-> mongo --host localhost:27017
+	create database
+		-> No specific command
+		-> use <database_name>
+	drop db
+		-> db.dropDatabase()
+	check current database
+		-> db
+	check all dbs
+		-> show dbs
+	create collection
+		-> use <database_name>  // to navigate to db
+		-> db.createCollection("user")
+	drop collection	
+		-> db.<collection_name>.insert({})
+	check all collections
+		-> show collections
+	create document
+		-> db.<collection_name>.insert({})
+	
+	
+	
+	
+	
+	
+	

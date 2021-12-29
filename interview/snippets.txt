@@ -1,0 +1,25 @@
+Array.prototype.myMethod = function(){
+  for(i=0;i<this.length;i++){
+  this[i]=this[i].toUpperCase();
+  }
+}
+  
+var myArray = ['one', 'two'];
+myArray.myMethod();
+
+//
+
+(function(x){delete x;
+  return x;
+})(1)
+
+
+// 
+class Holiday {
+  info(){
+  console.log("Sunday is a Holiday");
+  }    
+}
+var day= new Holiday();
+day.info();
+

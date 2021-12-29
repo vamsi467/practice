@@ -1,0 +1,12 @@
+Node Core Modules
+=================
+	1.) http - Launch a server and send requests,
+	2.) https - Launch a serve and send requests with SSL protocol,
+	3.) fs - To handle the file system,
+	4.) path - To handle file paths,
+	5.) os - Provides information about the operation system
+	6.) and more (stream, events, ....)
+	
+Importing a predefined module in Node
+=====================================
+	A module or a file can be imported using 'required' keyword  

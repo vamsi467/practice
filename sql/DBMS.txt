@@ -1,0 +1,30 @@
+Levels Of abstraction
+=====================
+	Physical Level:
+	---------------
+	Describes how a record is stored
+	
+	Logical Level:
+	--------------
+	Describes data stored in database, and the relationships
+	among the data
+	
+	View level: 
+	-----------
+	Application programs information for security purposes
+	
+Schemas and instances
+=====================
+	-> Similar to  types and variables in programming languages
+	
+	Schema
+	------
+		-> It is a way in which data needs to be organized. 
+							(or)
+		   It is a plan for organizing data
+		
+		Logical Schema
+		--------------
+	
+
+ 
