@@ -1,0 +1,17 @@
+select user, plugin from mysql.user;
+create USER 'djdemo'@'davidjones.qentelli.com' IDENTIFIED WITH caching_sha2_password BY 'Qentelli@123';
+
+CREATE USER 'djted'@'%' IDENTIFIED WITH mysql_native_password;
+
+
+select * from mysql.user;
+alter user 'djted'@'%' identified with mysql_native_password by 'Qentelli@123';
+select user,plugin from mysql.user;
+
+SELECT * FROM itpde.user;
+
+GRANT ALL PRIVILEGES ON djted.* TO 'djted'@'%'
+
+
+
+
